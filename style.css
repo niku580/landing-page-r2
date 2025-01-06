@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#left{
+    position: relative;
+    width: 40%;
+    height: 100%;
+    background-color: aliceblue;
+}
+#right{
+
+    width: 60%;
+    height: 100%;
+    background-color: rgb(74, 94, 111);
+}
+#rtop{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+}
+#rbtm{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://media.istockphoto.com/id/1307163065/photo/artificial-green-succulent-with-leaves-in-a-pot.jpg?s=612x612&w=0&k=20&c=tg2nmLATjyYN_qH-8dY-6osSJuX-VtFQA_pH2mT2u8A=);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#rtopleft{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1676490275177-4c30e01f30b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGNhY3R1cyUyMHBvdCUyMHdpdGglMjB5ZWxsb3clMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-size: cover ;
+    background-position: center;
+}
+#rtopr{
+    width: 55%;
+    height: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1670274608986-479b8d29e1e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhY3R1cyUyMHBvdCUyMHdpdGglMjB5ZWxsb3clMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+    background-size: cover ;
+    background-position: center;
+}
+
+#lnavr {
+    display: flex;
+    align-items: center;
+}
+#lnav{
+    width: 100%;
+    padding: 23px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#lnavr a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#lnavr i{
+    color: blue;
+}
+#left #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#text h1{
+    font-size: 85px;
+}
+
+#text p{
+    font-size: 18px;
+    line-height: 26px;
+    padding: 20px 0;
+    color: rgb(71, 67, 67);
+    margin-bottom: 20px;
+}
+
+#text a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(78, 69, 69);
+    padding-bottom: 3px;
+    font-weight: 600;
+
+}
+
+#rtop{
+
+}
+
+#rtopleft{
+  object-fit: cover; 
+  position: center; 
+} 
+
+
+
+
+@media(max-width: 500px){
+    
+        
+    #main{
+       flex-direction: column;
+    }
+
+    #main #left{
+        width: 100%;
+    }
+
+    #main #right{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
